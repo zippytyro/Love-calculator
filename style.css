@@ -1,0 +1,22 @@
+header {
+    text-align: center;
+}
+
+main {
+    max-width: 60%;
+}
+
+#message {
+    color: grey;
+}
+
+#loveMeter {
+    visibility: hidden;
+    width: 0%;
+    border: 1px solid black;
+    height: 20px;
+    margin-top: 2rem;
+    background-color: blue;
+    transition: ease-in 1.5s;
+    border-radius: 20px;
+}
